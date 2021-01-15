@@ -1,0 +1,163 @@
+{
+  "result": "success",
+  "description": "Found 1 route",
+  "suggest_routes": [
+    {
+      "routes": [
+        {
+          "direction": "Tuas Link->Pasir Ris",
+          "from_station": "Boon Lay",
+          "line": "EW",
+          "take_stations": [
+            {
+              "code": "EW27",
+              "name": "Boon Lay"
+            },
+            {
+              "code": "EW26",
+              "name": "Lakeside"
+            },
+            {
+              "code": "EW25",
+              "name": "Chinese Garden"
+            },
+            {
+              "code": "EW24",
+              "name": "Jurong East"
+            },
+            {
+              "code": "EW23",
+              "name": "Clementi"
+            },
+            {
+              "code": "EW22",
+              "name": "Dover"
+            },
+            {
+              "code": "EW21",
+              "name": "Buona Vista"
+            }
+          ],
+          "time_cost": 60,
+          "to_station": "Little India"
+        },
+        {
+          "direction": "HarbourFront->Dhoby Ghaut",
+          "from_station": "Buona Vista",
+          "line": "CC",
+          "take_stations": [
+            {
+              "code": "CC22",
+              "name": "Buona Vista"
+            },
+            {
+              "code": "CC21",
+              "name": "Holland Village"
+            },
+            {
+              "code": "CC20",
+              "name": "Farrer Road"
+            },
+            {
+              "code": "CC19",
+              "name": "Botanic Gardens"
+            }
+          ],
+          "time_cost": 30,
+          "to_station": "Botanic Gardens"
+        },
+        {
+          "direction": "Bukit Panjang->Expo",
+          "from_station": "Botanic Gardens",
+          "line": "DT",
+          "take_stations": [
+            {
+              "code": "DT9",
+              "name": "Botanic Gardens"
+            },
+            {
+              "code": "DT10",
+              "name": "Stevens"
+            },
+            {
+              "code": "DT11",
+              "name": "Newton"
+            },
+            {
+              "code": "DT12",
+              "name": "Little India"
+            }
+          ],
+          "time_cost": 30,
+          "to_station": "Little India"
+        }
+      ],
+      "summary": "Travel from Boon Lay to Little India during peak hours Time: 150 minutes Route: ('EW27', 'EW26', 'EW25', 'EW24', 'EW23', 'EW22', 'EW21', 'CC22', 'CC21', 'CC20', 'CC19', 'DT9', 'DT10', 'DT11', 'DT12')",
+      "take_stations": [
+        {
+          "code": "EW27",
+          "name": "Boon Lay"
+        },
+        {
+          "code": "EW26",
+          "name": "Lakeside"
+        },
+        {
+          "code": "EW25",
+          "name": "Chinese Garden"
+        },
+        {
+          "code": "EW24",
+          "name": "Jurong East"
+        },
+        {
+          "code": "EW23",
+          "name": "Clementi"
+        },
+        {
+          "code": "EW22",
+          "name": "Dover"
+        },
+        {
+          "code": "EW21",
+          "name": "Buona Vista"
+        },
+        {
+          "code": "CC22",
+          "name": "Buona Vista"
+        },
+        {
+          "code": "CC21",
+          "name": "Holland Village"
+        },
+        {
+          "code": "CC20",
+          "name": "Farrer Road"
+        },
+        {
+          "code": "CC19",
+          "name": "Botanic Gardens"
+        },
+        {
+          "code": "DT9",
+          "name": "Botanic Gardens"
+        },
+        {
+          "code": "DT10",
+          "name": "Stevens"
+        },
+        {
+          "code": "DT11",
+          "name": "Newton"
+        },
+        {
+          "code": "DT12",
+          "name": "Little India"
+        }
+      ],
+      "total_cost": 150,
+      "total_station": 12,
+      "total_interchange": 3
+    }
+  ]
+}
