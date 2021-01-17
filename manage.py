@@ -1,4 +1,4 @@
-# flask_migrate管理数据迁移的
+# flask migrations
 from flask_migrate import Migrate, MigrateCommand
 from flask_script import Manager
 
@@ -7,9 +7,9 @@ from app import create_app, db
 app = create_app()
 manager = Manager(app)
 
-# 将当前app,与db注册到Migrate
+# migrate app and db
 Migrate(app, db)
-# 添加管理数据的命令
+# add data management commands
 manager.add_command('db', MigrateCommand)
 
 
