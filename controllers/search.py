@@ -35,7 +35,7 @@ def search():
     return jsonify(result)
 
 
-# @api.route("/data")
+@api.route("/data")
 def gen_data():
     """
     load csv file's data to database
